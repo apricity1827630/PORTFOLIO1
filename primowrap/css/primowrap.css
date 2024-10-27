@@ -1,0 +1,443 @@
+@charset "utf-8";
+@import url(all.min.css);
+@import url(fonts.css);
+@media screen and (min-width:200px) and (max-width:600px) {
+
+    /* intro */
+    .wrapper {
+        max-width: 580px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .wrapper .circletop {
+        margin-left: 60%;
+    }
+
+    .wrapper .circleunder {
+        margin-top: 60%;
+    }
+
+    .wrapper>a {
+        display: block;
+        width: 230px;
+    }
+
+    .wrapper>a>img {
+        display: block;
+        width: 100%;
+        margin: 145px 0 0 70px;
+    }
+
+    /* main */
+
+    .content .tab_group .swiper {
+        width: 100%;
+        height: 200px;
+    }
+
+    .content header {
+        padding: 20px 10px;
+
+    }
+
+    .content header .login {
+        position: absolute;
+        top: 23px;
+        right: 50px;
+    }
+
+    .content header .btnMenu {
+        position: absolute;
+        right: 10px;
+    }
+
+    .content .autoplay-progress {
+        display: none;
+    }
+
+    .tab_group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .tab ul {
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .tab ul li {
+        width: 25%;
+        color: #cdcdcd;
+        box-sizing: border-box;
+    }
+
+    .tab ul li button {
+        width: 100%;
+        background: none;
+        height: 35px;
+        text-align: center;
+        font-size: 14px;
+
+        box-sizing: border-box;
+        outline: 0;
+        border: none;
+        cursor: pointer;
+    }
+
+    .tab ul li button:focus,
+    .tab ul li.on button {
+        border-bottom: 4px solid #222;
+        color: #222;
+        font-weight: 500;
+
+    }
+
+    .tab_content {
+        line-height: 5px;
+        text-align: left;
+        font-size: 20px;
+        color: #000;
+        display: none;
+        padding: 0 5px;
+
+    }
+
+    .tab_content .tablebg {
+        width: 150px;
+        height: 170px;
+
+
+    }
+
+    .tab_content .tablebg img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .tab_content h1 {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+
+    .tab_content .contentBox {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 800px;
+        margin: 0 auto;
+
+    }
+
+    /* tablebg */
+    .tab_content .contentBox .tablebg {
+        position: relative;
+    }
+
+
+    .tab_content .contentBox .tablebg p {
+        width: 140px;
+        font-size: 14px;
+
+    }
+
+    .tab_content .contentBox .tablebg .price {
+        margin-top: -16%;
+        font-weight: 600;
+    }
+
+    .tab_content .contentBox .tablebg .price span {
+        color: #CC5511;
+    }
+
+    .tablebg .icon {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .tab_content.on {
+        display: block;
+
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+
+    .icon {
+        background: url(../image/hearton.png) center/cover;
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .icon.on {
+        background: url(../image/heart.png)no-repeat center/cover;
+
+    }
+
+    .cart {
+        background: url(../image/carton.png)no-repeat center/cover;
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .cart.on {
+        background: url(../image/cart.png)no-repeat center/cover;
+    }
+
+
+
+    .sideMenu {
+        z-index: 1000;
+        position: fixed;
+        top: 10px;
+        right: -120%;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        /*  padding: 7.50em 0 3.750em; */
+        /* padding: 120px 60px 60px / font-size: 16px*/
+        box-sizing: border-box;
+    }
+
+    .sideMenu .contBox {
+        list-style-type: none;
+        box-sizing: border-box;
+        margin: 20px;
+        overflow: hidden;
+    }
+
+
+    .sideMenu .btnClose {
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+
+    .sideMenu .btnClose img {
+        display: block;
+        width: 100%;
+
+    }
+
+    .sideMenu .contBox .title {
+        font-weight: 600;
+        color: #000;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .sideMenu .contBox input {
+        background-color: #f0f0f0;
+        border: none;
+        height: 35px;
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sideMenu .contBox .search {
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 30px;
+    }
+
+    .sideMenu .contBox .event {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .sideMenu .contBox .event span {
+        color: #F06A6A;
+    }
+
+    .contBox .loginbutton {
+        border: none;
+        width: 100%;
+        height: 4vh;
+        background-color: #F06A6A;
+        color: #fff;
+    }
+
+    .contBox .category {
+        width:100%;
+ 
+        display: flex;
+        justify-content: space-between;
+         flex-wrap: wrap;
+        color: #cdcdcd;
+        margin: 20px 0;
+    }
+
+    .contBox .category button {
+        border: none;
+        width: 116px;
+        height: 30px;
+        border-left: #cdcdcd 0.5px solid;
+
+        text-align: center;
+      
+    }
+    .contBox .category button:nth-child(1) {
+        border-bottom: #cdcdcd 0.5px solid ;
+    }
+    .contBox .category button:nth-child(2) {
+        border-bottom: #cdcdcd 0.5px solid ;
+    }
+    .contBox .category button:nth-child(3) {
+        border-bottom: #cdcdcd 0.5px solid ;
+    }
+    .contBox .product{
+        border: none;
+        width: 100%;
+        height: 4vh;
+        background-color: #FCF4F4;
+        color: #000;
+        position: relative;
+        margin: 20px 0;
+    }
+    .contBox .product img{
+        display: block;
+        position: absolute;
+        top: 6px;right: 10px;
+    }
+
+
+
+    /* 아코디언메뉴 */
+    .accordion-wrap {
+        width: 100%;
+    }
+    .accordion-wrap  p{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: #000;
+    }
+
+
+    .acc-que {
+        position: relative;
+        padding: 17px 0;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+        font-weight: 600;
+color: #000;
+    }
+
+    .acc-que:before {
+        display: inline-block;
+
+        font-size: 17px;
+
+        margin: 0 5px;
+    }
+
+    .acc-que.on>span {
+        font-weight: 500;
+
+    }
+
+    .acc-ans {
+        overflow: hidden;
+        font-size: 15px;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        display: none;
+        color: #9d9b9b;
+    }
+    .acc-ans li{
+        line-height: 30px;
+    }
+    .acc-ans:before {
+        display: block;
+        font-size: 17px;
+      
+
+    }
+
+    .arrow-wrap {
+        position: absolute;
+        top: 54%;
+        left: 58px;
+        transform: translate(0, -50%);
+     
+    }
+
+    .acc-que img {
+        display: block;
+        width: 30px;   color: #cdcdcd;
+    }
+
+    .acc-que .arrow-top {
+        display: none;
+    }
+
+    .acc-que .arrow-bottom {
+        display: block;
+    }
+
+    .acc-que.on .arrow-top {
+        display: block;
+    }
+
+    .acc-que.on .arrow-bottom {
+        display: none;
+    }
+
+
+
+
+    /* footer */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background: white;
+        border-top: 1px solid #e6e6e6;
+        border-radius: 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+    footer .mypage a{
+        width: 36px;
+    }
+    footer .mypage a img{
+        width: 100%;
+    }
+    footer .deli > a{
+        display: block;
+        width: 32px;
+       
+    }
+    footer .deli a img{
+        width: 100%;
+    }
+    footer img {
+        width: 32px;
+        height: 32px;
+    }
+
+
+}

@@ -1,0 +1,295 @@
+@charset "utf-8";
+@import url(fonts.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 공통 */
+html {
+    font-size: 16px;
+    color: #5555;
+}
+
+body {
+    font-family: 'NotoKrR', 'Montserrat Bold', sans-serif;
+
+}
+
+.inner {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+section {
+    margin-bottom: 90px;
+
+    padding: 0 12%;
+}
+
+/* header */
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    box-sizing: border-box;
+    height: 60px;
+    z-index: 100;
+}
+
+header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* headwer -logo */
+.inner .logo {
+    /* position: absolute;
+    top: 10%;
+    left: 4%; */
+    width: 180px;
+    /* margin-top: 10px; */
+    z-index: 20;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: url(../img/logo_ziatti.png )no-repeat center/contain;
+}
+
+/* gnb */
+header .gnb_area {
+    width: 70%;
+    text-align: center;
+}
+
+.gnb_area .gnb>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb_area .gnb>ul>li {
+    position: relative;
+    flex: 1;
+}
+
+.gnb_area .gnb>ul>li>a {
+    display: block;
+    position: relative;
+    font-size: 1em;
+    line-height: 60px;
+    color: #000;
+}
+
+.gnb_area .gnb>ul>li>a:hover {
+    color: rgb(255, 134, 78);
+}
+
+/*sub */
+.gnb_area .gnb>ul ul {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+
+}
+
+.gnb_area .gnb>ul ul a {
+    text-align: center;
+    display: block;
+    font-size: 0.75rem;
+    line-height: 2.8em;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.gnb>ul ul a:hover,
+.gnb>ul ul a:focus {
+    display: block;
+    color: rgb(255, 134, 78);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.bgGnb {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    min-height: 280px;
+    padding: 50px 0;
+    background: #fff;
+    border-top: 1px solid #f1f0f0;
+    transition: all 0.4s;
+    display: none;
+    z-index: 30;
+    box-sizing: border-box;
+}
+
+/* tnb */
+.inner .tnb {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 190px;
+    text-shadow: #5a5959;
+}
+
+.tnb>li {
+    padding: 0 4px;
+
+}
+
+.tnb>li:hover {
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+
+.tnb>li>a>img {
+    vertical-align: middle;
+}
+
+/* section */
+section img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.tablelist {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.table {
+    display: block;
+    width: 460px;
+
+}
+
+.table img {
+    display: block;
+    width: 100%;
+
+}
+
+.table_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 0 5px;
+}
+
+.table_info .title {
+    color: #cdcdcd;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.table_info .text {
+    text-align: right;
+}
+
+
+.tablelist .table:last-child{
+transform: translateX(-107%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    background: #f9f9f9;
+    height: 30vh;
+    max-width: 100%;
+    color: #333;
+    padding: 95px 60px;
+}
+
+.foot_area {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px;
+    position: relative;
+    width: 100%;
+}
+
+
+/* foot_left */
+.inner .foot_area .foot_left {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.foot_area .foot_left .locate dd {
+    margin-bottom: 5px;
+}
+
+.foot_area .foot_left .locate>dd>strong {
+    margin-right: 5px;
+}
+
+.foot_area .foot_left .guide dd {
+    float: left;
+    text-align: right;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
+
+.foot_left .guide dd:hover {
+    color: rgb(255, 134, 78);
+    font-weight: 700;
+}
+
+.foot_area .foot_left .guide dt {
+    text-align: right;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.foot_area>img {
+    width: 40px;
+    height: 40px;
+    margin: 0 0 30px;
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+
+.inner .service {
+    font-size: 12px;
+}

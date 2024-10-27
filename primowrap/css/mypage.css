@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url(all.min.css);
+@import url(fonts.css);
+@media screen and (min-width:200px) and (max-width:600px) {
+    .contain {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .contain .top {
+
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 10px;
+    }
+
+
+    .top .titlebox .title {
+        font-size: 20px;
+        color: #000;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .contain .membership {
+        width: 100%;
+        height: 90px;
+        background-color: #eaeaea;
+        position: relative;
+       
+        color: #000;
+
+
+    }
+
+    .contain .membership .text {
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 10px;
+        padding-left: 18px;
+    }
+
+
+    .contain .membership button {
+        border: 1px #cdcdcd solid;
+        border-radius: 30px;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        background-color: #f9f9f9;
+padding: 5px 10px;
+color: #707070;
+    }
+
+    .contain .membership p {
+        padding-top: 15px;
+
+    }
+
+    /* icon_list */
+    .contain .icon_list {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .contain .coupon {
+        width: 100%;
+        border: none;
+        height: 30px;
+        background-color: #F47C7C;
+        color: #fff;
+        position: relative;
+        text-align: left;
+        padding-left: 18px;
+    }
+
+    .contain .coupon img {
+        display: block;
+        position: absolute;
+        top: 4px;
+        right: 10px;
+    }
+
+    .contain .icon_list li {
+        text-align: center;
+    }
+
+    /* service */
+    .contain .service {
+        margin-top: 20px;
+        height: 200px;
+        background-color: #FFF6F6;
+        padding: 18px;
+        line-height: 30px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .contain .service .text {
+        color: #cdcdcd;
+    }
+
+    .contain .bninfo {
+        color: #000;
+        font-weight: 600;
+        margin:0 0 20px 18px;
+
+    }
+    .business_info{
+        margin-left: 18px;
+    }
+    .business_info dd{
+        color: #cdcdcd;
+        line-height: 25px;
+    }
+    .business_info dd strong{
+        margin-left: 10px;
+        color: #000;
+        font-weight: 500;
+    }
+    /* footer */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background: white;
+        border-top: 1px solid #e6e6e6;
+        border-radius: 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    footer .mypage a {
+        width: 36px;
+    }
+
+    footer .mypage a img {
+        width: 100%;
+    }
+
+    footer .deli>a {
+        display: block;
+        width: 32px;
+
+    }
+
+    footer .deli a img {
+        width: 100%;
+    }
+
+    footer img {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+
+
+
+
+
+}

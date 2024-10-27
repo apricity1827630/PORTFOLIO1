@@ -1,0 +1,92 @@
+@charset "utf-8";
+@import url(all.min.css);
+@import url(fonts.css);
+@media screen and (min-width:200px) and (max-width:600px) {
+    .contain {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 30px;
+
+    }
+
+    .contain .titlebox {
+        margin-bottom:180px;
+    }
+
+    .contain .titlebox .title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: #cdcdcd;
+        margin-top: -10%;
+    }
+
+    .contain button {
+        font-size: 16px;
+        font-weight: 600;
+        width: 100%;
+        border: none;
+        padding: 16px 20px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+
+    .contain .kakao {
+        background-color: rgb(245, 210, 12);
+    }
+
+    .contain .email {
+        background-color: #fff;
+        border: 0.5px solid #cdcdcd;
+    }
+
+    .contain>img {
+        display: block;
+      position: absolute;
+      top: 60%;left: 10%;
+        width: 24px;
+    }
+
+    .contain .more {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contain .sns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contain .sns {
+        padding: 0 60px;
+        padding-bottom: 30px;
+    }
+
+    .contain .sns dd>a {
+        display: block;
+        width: 40px;
+
+    }
+
+    .contain .sns dd>a img {
+        width: 100%;
+    }
+
+    .contain .textbox {
+        display: flex;
+        justify-content: space-between;
+padding: 0 30px;
+  
+    }
+    .contain .textbox p:first-child{
+        border-right: 2px solid #cdcdcd;
+    }
+    .contain .textbox p:nth-child(2){
+        border-right: 2px solid #cdcdcd;
+    }
+    .contain .textbox p{
+     padding: 0 20px;
+   
+    }
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/primowrap.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <a href="main.html" class="logo"><img src="image/PrimoWrap.png" alt=""></a>
+            <a href="login.html" class="login">로그인</a>
+            <img src="image/grid.png" alt="메뉴열기" class="btnMenu">
+        </header>
+        <div class="menulist">
+
+            <div class="tab_group">
+                <nav class="tab">
+                    <ul>
+                        <li ><button onclick="showTab(0)">OUTER</button></li>
+                        <li class="on"><button onclick="showTab(1)">TOP</button></li>
+                        <li><button onclick="showTab(2)">PANTS</button></li>
+                        <li><button onclick="showTab(3)">SALE~50%</button></li>
+                    </ul>
+                </nav>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/main1.png" alt="Image 1" id="img-one">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main2.png" alt="Image 1" id="img-two">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main3.png" alt="Image 1" id="img-three">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/main4.png" alt="Image 1" id="img-four">
+                        </div>
+                    </div>
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 0 0">
+                        </svg>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content on">
+
+                <h1>user님을 위한 오늘의 추천 아이템</h1>
+                <div class="contentBox">
+                    <div class="tablebg imglist1">
+                        <img src="img/blouse.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist2">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOp.nametion"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist3">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist4">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist5">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist6">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="tab_content ">
+                <h1>user님을 위한 오늘의 추천 아이템</h1>
+                <div class="contentBox">
+                    <div class="tablebg imglist1">
+                        <img src="img/blouse.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist2">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOp.nametion"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist3">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist4">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist5">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                    <div class="tablebg imglist6">
+                        <img src="img/blouse2.gif" alt="">
+                        <div class="icon on" id="likeOption"></div>
+                        <p class="name">퍼프 셔링 반팔 블라우스</p>
+                        <p class="price"><span>10%</span>36,700</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab_content">
+
+            </div>
+
+        </div>
+        <aside class="sideMenu">
+            <a href="#" class="btnClose"><img src="image/btnclose.png" alt="닫기"></a>
+            <div class="contBox clear">
+                <p class="title">MENU</p>
+                <input type="text">
+                <a href="#" class="search"><img src="image/search.png" alt=""></a>
+                <p class="event"><span>회원가입</span>하시고<br> 다양한 혜택을 누려보세요!</p>
+                <button class="loginbutton">로그인/회원가입</button>
+                <div class="category">
+                    <button>BEST</button>
+                    <button>NEW</button>
+                    <button>오늘출발</button>
+                    <button>Q&A</button>
+                    <button>Mypage</button>
+                    <button>장바구니</button>
+                </div>
+                <button href="#" class="product">
+                    최근 본 상품
+                    <img src="image/more.png" alt=""></button>
+                
+
+
+
+                <div class="accordion-wrap">
+                    <p>카테고리</p>
+                    <div class="acc-que">
+                        <span>OUTER</span>
+                        <div class="arrow-wrap">
+                            <span class="arrow-top">
+                                <img src="image/arrow_up.png" alt="펼치기">
+                            </span>
+                            <span class="arrow-bottom">
+                                <img src="image/arrow_down.png" alt="접기">
+                            </span>
+                        </div>
+                    </div>
+                    <ul class="acc-ans">
+                        <li>자켓</li>
+                        <li>코트</li>
+                        <li>블레이져</li>
+                        <li>바람막이</li>
+                    </ul>
+                    <div class="acc-que">
+                        <span>TOP</span>
+                        <div class="arrow-wrap">
+                            <span class="arrow-top">
+                                <img src="image/arrow_up.png" alt="펼치기">
+                            </span>
+                            <span class="arrow-bottom">
+                                <img src="image/arrow_down.png" alt="접기">
+                            </span>
+                        </div>
+                    </div>
+                    <ul class="acc-ans">
+                        <li>티셔츠</li>
+                        <li>블라우스</li>
+                        <li>셔츠</li>
+                        <li>가디건</li>
+                        <li>반팔</li>
+                    </ul>
+                    <div class="acc-que">
+                        <span>PANTS</span>
+                        <div class="arrow-wrap">
+                            <span class="arrow-top">
+                                <img src="image/arrow_up.png" alt="펼치기">
+                            </span>
+                            <span class="arrow-bottom">
+                                <img src="image/arrow_down.png" alt="접기">
+                            </span>
+                        </div>
+                    </div>
+                    <ul class="acc-ans">
+                        <li>데님</li>
+                        <li>슬랙스</li>
+                        <li>면바지</li>
+                        <li>숏츠</li>
+                    </ul>
+                    <div class="acc-que">
+                        <span>SKIRT&DRESS</span>
+                        <span>SALE~50%</span>
+                    </div>
+                    <div class="acc-que">
+                        <span>자체제작</span>
+                        <div class="arrow-wrap">
+                            <span class="arrow-top">
+                                <img src="image/arrow_up.png" alt="펼치기">
+                            </span>
+                            <span class="arrow-bottom">
+                                <img src="image/arrow_down.png" alt="접기">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="acc-ans">
+                        <li>자켓</li>
+                        <li>코트</li>
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+        <footer>
+            <div class="main">
+                <a href="main.html">
+                    <img src="image/home.png" alt="">
+                </a>
+            </div>
+            <!-- .main -->
+            <div class="deli">
+                <a href="javascript:;">
+                    <img src="image/shoppingbag.png" alt="">
+                </a>
+            </div>
+            <!-- .deli -->
+            <div class="menu">
+                <a href="javascript:;">
+                    <img src="image/menu.png" alt="">
+                </a>
+            </div>
+            <div class="mypage">
+                <a href="mypage.html">
+                    <img src="image/user.png" alt="">
+                </a>
+            </div>
+            <div class="mycollection">
+                <a href="javascript:;">
+                    <img src="image/mainheart.png" alt="">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress");
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false
+            },
+            spaceBetween: 30,
+            effect: "fade",
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
+            }
+        });
+        function showTab(tabIndex) {
+            const tabs = document.querySelectorAll('.tab_content');
+            tabs.forEach((tab, index) => {
+                if (index === tabIndex) {
+                    tab.classList.add('on');
+                } else {
+                    tab.classList.remove('on');
+                }
+            });
+
+            const tabItems = document.querySelectorAll('.tab li');
+            tabItems.forEach((item, index) => {
+                if (index === tabIndex) {
+                    item.classList.add('on');
+                } else {
+                    item.classList.remove('on');
+                }
+            });
+        }
+        $(document).on("click", "#likeOption", function () {
+            $(this).toggleClass('on');
+        });
+        $(function () {
+            const $aside = $('.sideMenu'),
+                $btn = $('.btnMenu');
+
+            $btn.on('click', function () {
+                $aside.toggleClass('on')
+
+                if ($aside.hasClass('on')) {
+                    $(".contents").addClass('on');
+                    $aside.stop().animate({
+                        right: 0
+                    }, 300);
+                    $aside.removeClass('on')
+                }
+            })
+            $('.btnClose').on('click', function () {
+                $(".contents").removeClass('on');
+                $aside.stop().animate({
+                    right: '-120%'
+                }, 300);
+                $btn.find('img').attr({
+                    src: 'img/menu.png',
+                    alt: '메뉴열기'
+                })
+                $aside.removeClass('on')
+            })
+
+        });
+        $(function() {
+            $('.acc-que').on('click', function() {
+                $(this).next('.acc-ans').stop().slideToggle(300);
+                //현재 클릭된 .acc-que에게 toggleClass(on)을 적용
+                //형제 요소는 on 제거
+                $(this).toggleClass('on').siblings().removeClass('on');
+                $(this).next('.acc-ans').siblings('.acc-ans').stop().slideUp(300)
+            })
+        })
+    </script>
+</body>
+
+</html>
